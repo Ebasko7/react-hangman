@@ -21,11 +21,11 @@ function App() {
 
   return (
     <>
-      <WordInput onGuess={handleGuess} />
+      <TextInput onGuess={handleGuess} />
       <Puzzle word={word} guessedLetters={guessedLetters} />
       <Guessed guessedLetters={guessedLetters} />
     </>
-  );
+  )
 }
 
 export default App;

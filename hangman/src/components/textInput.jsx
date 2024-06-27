@@ -8,7 +8,7 @@ function textInput({ onGuess }) {
   }
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault()
     if (input.length === 1) {
       onGuess(input)
     }

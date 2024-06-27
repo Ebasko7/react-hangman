@@ -1,0 +1,13 @@
+
+form, #displayword, #guess, #title{
+    display: flex;
+    justify-content: center;
+} 
+
+#GL{
+    display: block;
+}
+
+body{
+    background-color: aqua;
+}
